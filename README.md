@@ -46,7 +46,7 @@ titanic-survival-app/
 │   └── requirements.txt      # Required packages
 ├── data/
 │   ├── train.csv             # Original Titanic dataset
-├── titanic\_notebook.ipynb   # Notebook with EDA + model training
+├── titanic\_notebook.ipynb   # EDA, model training & evaluation
 
 ````
 
@@ -87,7 +87,7 @@ streamlit run predicapp.py
 
 ## 🧠 How it Works
 
-This app uses a **Logistic Regression** model trained on the Titanic dataset with features such as:
+This app uses a **Logistic Regression** model trained on cleaned Titanic data. Before modeling, I performed **exploratory data analysis (EDA)** to understand key patterns in the dataset — such as survival rates by age, gender, and class.
 
 * Ticket class (`Pclass`)
 * Sex
