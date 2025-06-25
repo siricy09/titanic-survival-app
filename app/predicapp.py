@@ -6,8 +6,9 @@ import matplotlib.pyplot as plt
 from scipy.special import expit
 
 # Load model and training data
-model = joblib.load('titanic_model.pkl')
-X_train = joblib.load('X_train.pkl')
+import os
+model = joblib.load(os.path.join(os.path.dirname(__file__), 'titanic_model.pkl'))
+X_train = joblib.load(os.path.join(os.path.dirname(__file__), 'X_train.pkl'))
 
 st.title("Titanic Survival Prediction App")
 st.markdown("Enter the passenger details below to predict whether they would have survived the Titanic disaster.")
