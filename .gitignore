@@ -1,0 +1,31 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# MacOS and system files
+.DS_Store
+Thumbs.db
+
+# Environment / Dependency management
+.env
+.venv/
+*.egg-info/
+Pipfile.lock
+
+# Streamlit temporary files
+.streamlit/
+
+# VS Code settings (optional)
+.vscode/
+
+# Logs and junk
+*.log
+*.tmp
+*.bak
+
+# Model/data artifacts (optional – only ignore if not uploading to GitHub)
+# *.pkl
+# /data/*.csv
