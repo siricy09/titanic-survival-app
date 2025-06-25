@@ -114,7 +114,8 @@ app/predicapp.py
 ```
 
 ---
-
+## Streamlit App
+Click here to check it out [Streamlit](https://predicapppy-j5dxoq5iagmjcrrxu8ut6q.streamlit.app/)
 ## 📄 License
 
 This project is open-source under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
